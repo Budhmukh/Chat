@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+#chatwindow{
+    position:relative;
+    height:200px; 
+    width:300px;
+   
+}
+
+#textarea1, #inputmessage{
+    position:absolute;
+    left:0;
+    right:0;
+}
+#textarea1{   
+    overflow:auto;
+    top:0;
+    bottom:3em;
+    background-color: aqua;
+}
+#inputmessage{
+    display:block;
+    bottom:0;
+    height:1em;
+    padding:.5em;
+    margin-top:1em;
+}
+
+#inputmessage > p{
+    margin:0;
+}
